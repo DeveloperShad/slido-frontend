@@ -1,0 +1,42 @@
+
+.form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid black;
+    width:40rem;
+    border-radius: 00.5rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+.form h2{
+
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.form form input:nth-child(1){
+   width:100%;
+   padding:0.5rem;
+}
+.form form textarea{
+    width:100%;
+    padding:0.5rem;
+}
+
+.form form input:nth-child(3){
+  width:100%;
+  padding:0.5rem;
+   
+}
+
+.form__info{
+
+}
+.form__info p{
+    font-size: 1.6rem;
+}

@@ -1,0 +1,70 @@
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    border: 1px solid black;
+    padding:2rem;
+    margin-top: 2rem;
+    border-radius:0.5rem;
+}
+
+.signin__title{
+
+}
+.signin__title h2{
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.signin__credential_cont{
+    display: flex;
+    width: 40rem;
+    gap: 0.5em;
+}
+
+.signin__credential_cont input{
+    width: 50%;
+    padding: 0.5em;
+
+}
+
+.signin__submit{
+    
+}
+
+.signin__submit input{
+    width: 100%;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.signin__google_login_btn{
+    width:40rem;
+}
+
+.signin__google_login_btn button{
+    width: 100%;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.signin__google_login_btn button i{
+    color: blue;
+}
+
+.signin__switch_btn{
+    width:40rem;
+
+}
+
+.signin__switch_btn button{
+    width: 100%;
+    padding: 0.5em;
+    cursor: pointer;
+}

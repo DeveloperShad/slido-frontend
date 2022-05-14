@@ -1,0 +1,53 @@
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background:blue;
+    height: 4.5rem;
+    padding:2.5rem;
+    width: 100%;
+}
+
+.navbar  a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.navbar__login img{
+    width:4rem;
+    height: 4em;
+    border-radius:50%;
+}
+
+.navbar__login p{
+   font-size:1.6rem;
+   color: white;
+}
+.navbar__login a{
+    background:white;
+    color: blue;
+    font-size: 1.6rem;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.navbar__logout {
+   
+    
+}
+
+.navbar__logout a{
+    background:white;
+    color: blue;
+    font-size: 1.6rem;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+}
