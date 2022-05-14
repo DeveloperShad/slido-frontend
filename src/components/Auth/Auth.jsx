@@ -29,7 +29,10 @@ export const Auth = () => {
   return (
     <div className={Style.auth}>
       {
-        isSignIn ? <SignIn googleSuccess = {googleSuccess} googleFailure = {googleFailure} setIsSignIn={setIsSignIn} isSignIn={isSignIn}/> : <SignUp googleSuccess = {googleSuccess} googleFailure = {googleFailure} setIsSignIn={setIsSignIn} isSignIn={isSignIn}/>
+        isSignIn ? 
+        <SignIn googleSuccess = {googleSuccess} googleFailure = {googleFailure} setIsSignIn={setIsSignIn} isSignIn={isSignIn}/>
+        : 
+        <SignUp googleSuccess = {googleSuccess} googleFailure = {googleFailure} setIsSignIn={setIsSignIn} isSignIn={isSignIn}/>
       }
      
      

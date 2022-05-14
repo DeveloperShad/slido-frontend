@@ -52,7 +52,7 @@ export const SignUp = ({googleSuccess,googleFailure,setIsSignIn,isSignIn}) => {
             </form>
             <div className={Style.signup__google_login_btn}>
                 <GoogleLogin
-                    clientId="163364189103-rtikmm99quj1c16o8qfuru4m016ilrn0.apps.googleusercontent.com"
+                    clientId="163364189103-m3gm34vmfv0k9k7jm5o9469lv3h3ltc1.apps.googleusercontent.com"
                     render={(renderProps) => (
                         <button
                             onClick={renderProps.onClick}
