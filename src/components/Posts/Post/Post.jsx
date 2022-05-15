@@ -38,7 +38,9 @@ export const Post = ({ el, handleUpdate }) => {
       </div>
       <p>{el.message}</p>
       <div className={Style.post__more}>
-        <LikeCount />
+        {
+          loggedInUser?.token && <LikeCount />
+        }
         {
           (loggedInUser?.user?.googleId === el?.creator || loggedInUser?.user?._id === el?.creator) &&
           (<span onClick={() => dispatch(deletePost(el._id))}><i className="fas fa-trash"></i> DELETE</span>)

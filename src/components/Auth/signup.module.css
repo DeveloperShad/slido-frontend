@@ -69,6 +69,7 @@ form{
 }
 .signup__google_login_btn{
     width:40rem;
+    display: none;
 }
 .signup__google_login_btn button{
     width:100%;

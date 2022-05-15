@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   const currentUser = useSelector(state => state.auth)
   const [user, setUser] = useState(currentUser);
-  console.log('from navbar', user)
+  // console.log('from navbar', user)
   const dispatch = useDispatch();
   const location = useLocation();
 
@@ -37,7 +37,7 @@ export const Navbar = () => {
 
   return (
     <div className={Style.navbar}>
-      <Link to="/"><h1>QnA</h1></Link>
+      <Link to="/"><h1>Slido</h1></Link>
       {
         user?.token ?
           <div className={Style.navbar__login}>

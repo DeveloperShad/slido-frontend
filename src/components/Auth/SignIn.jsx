@@ -34,12 +34,12 @@ export const SignIn = ({ googleSuccess, googleFailure, setIsSignIn, isSignIn }) 
                     <input type="password" name="password" onChange={handleChange} value={user.password} placeholder="Enter Your Password" />
                 </div>
                 <div className={Style.signin__submit}>
-                    <input type="submit" value="Sign In"/>
+                    <input type="submit" value="Sign In" />
                 </div>
             </form>
             <div className={Style.signin__google_login_btn}>
                 <GoogleLogin
-                    clientId="163364189103-m3gm34vmfv0k9k7jm5o9469lv3h3ltc1.apps.googleusercontent.com"
+                    clientId="57068600894-v6tcaldjjil72rhu7epl2ts8dnn2gid2.apps.googleusercontent.com"
                     render={(renderProps) => (
                         <button
                             onClick={renderProps.onClick}

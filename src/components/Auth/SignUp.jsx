@@ -8,7 +8,7 @@ import { signUp } from "../../actions/auth";
 import { GoogleLogin } from 'react-google-login'
 
 
-export const SignUp = ({googleSuccess,googleFailure,setIsSignIn,isSignIn}) => {
+export const SignUp = ({ googleSuccess, googleFailure, setIsSignIn, isSignIn }) => {
     const initUser = { first_name: '', last_name: '', email: '', password: '', confirm_password: '', selectedFile: '' }
     const [user, setUser] = useState(initUser);
     const dipatch = useDispatch();
@@ -52,7 +52,7 @@ export const SignUp = ({googleSuccess,googleFailure,setIsSignIn,isSignIn}) => {
             </form>
             <div className={Style.signup__google_login_btn}>
                 <GoogleLogin
-                    clientId="163364189103-m3gm34vmfv0k9k7jm5o9469lv3h3ltc1.apps.googleusercontent.com"
+                    clientId="57068600894-v6tcaldjjil72rhu7epl2ts8dnn2gid2.apps.googleusercontent.com"
                     render={(renderProps) => (
                         <button
                             onClick={renderProps.onClick}

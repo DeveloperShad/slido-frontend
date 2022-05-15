@@ -9,13 +9,12 @@ import { useSelector } from 'react-redux'
 
 export const Posts = ({handleUpdate}) => {
   const posts = useSelector((state) => state.posts)
-  console.log('posts', posts)
+  // console.log('posts', posts)
   const dispatch = useDispatch();
 
 
   useEffect(() => {
     dispatch(getPosts())
-    console.log('from posts')
   }, [])
 
 
