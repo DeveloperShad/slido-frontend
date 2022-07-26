@@ -17,8 +17,8 @@ export const Home = () => {
   
   return (
     <div className={Style.container}>
-        <Posts handleUpdate = {handleUpdate} />
         <Form currentId = {currentId} setCurrentId = {setCurrentId}/>
+        <Posts handleUpdate = {handleUpdate} />
     </div>
   )
 }

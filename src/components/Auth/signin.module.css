@@ -5,27 +5,30 @@
     gap: 1em;
     align-items: center;
     border: 1px solid black;
-    padding:2rem;
-    margin-top: 2rem;
-    border-radius:0.5rem;
+    padding:1em;
+    margin: 2em 1em;
+    border-radius:0.5em;
+    width: 100%;
 }
 
 .signin__title{
 
 }
 .signin__title h2{
-
+    color: blue;
+    font-size: 1.6em;
 }
 
 form{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    width: 100%;
 }
 
 .signin__credential_cont{
     display: flex;
-    width: 40rem;
+    width: 100%;
     gap: 0.5em;
 }
 
@@ -36,7 +39,7 @@ form{
 }
 
 .signin__submit{
-    
+    width:100%;
 }
 
 .signin__submit input{
@@ -46,7 +49,7 @@ form{
 }
 
 .signin__google_login_btn{
-    width:40rem;
+    width:100%;
     display: none;
 }
 
@@ -60,7 +63,7 @@ form{
 }
 
 .signin__switch_btn{
-    width:40rem;
+    width:100%;
 
 }
 

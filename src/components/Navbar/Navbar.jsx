@@ -42,7 +42,7 @@ export const Navbar = () => {
         user?.token ?
           <div className={Style.navbar__login}>
             <img src={user?.user?.imageUrl} alt={user.user.name[0]} />
-            <p>{user?.user?.name}</p>
+            <p>{user?.user?.name.split(' ')[0]}</p>
             <Link to="/" onClick={handleLogout}>Logout</Link>
           </div>
           :

@@ -53,7 +53,7 @@ export const Form = ({ currentId, setCurrentId }) => {
             <h2> {currentId ? 'Updating' : 'Creating'} a post</h2>
             <form onSubmit={handleSubmit}>
               <input type="text" name="tags" placeholder='Tags put , for multiple tags' value={postData.tags} onChange={handleChange} />
-              <textarea name="message" placeholder='Type your question here' cols="10" rows="10" value={postData.message} onChange={handleChange}></textarea>
+              <textarea name="message" placeholder='Type your question here' cols="10" rows="5" value={postData.message} onChange={handleChange}></textarea>
               <input type="submit" value="Submit"/>
             </form>
           </div>

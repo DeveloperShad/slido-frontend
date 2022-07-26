@@ -6,7 +6,7 @@ import { Home } from '../Home/Home';
 import { Navbar } from '../Navbar/Navbar';
 export const Routes = () => {
   return (
-    <div>
+    <>
         <Navbar/>
         <Router>
             <Route path='/' element={<Home/>}>
@@ -16,6 +16,6 @@ export const Routes = () => {
 
             </Route>
         </Router>
-    </div>
+    </>
   )
 }

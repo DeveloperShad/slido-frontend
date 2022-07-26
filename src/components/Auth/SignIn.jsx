@@ -37,7 +37,7 @@ export const SignIn = ({ googleSuccess, googleFailure, setIsSignIn, isSignIn }) 
                     <input type="submit" value="Sign In" />
                 </div>
             </form>
-            <div className={Style.signin__google_login_btn}>
+            {/* <div className={Style.signin__google_login_btn}>
                 <GoogleLogin
                     clientId="57068600894-v6tcaldjjil72rhu7epl2ts8dnn2gid2.apps.googleusercontent.com"
                     render={(renderProps) => (
@@ -50,7 +50,7 @@ export const SignIn = ({ googleSuccess, googleFailure, setIsSignIn, isSignIn }) 
                     onFailure={googleFailure}
                     cookiePolicy="single_host_origin"
                 />
-            </div>
+            </div> */}
             <div className={Style.signin__switch_btn}>
                 <button onClick={() => setIsSignIn(!isSignIn)}>{!isSignIn ? 'Already have an account? Login' : "You don't have an account? Signup"}</button>
             </div>

@@ -1,15 +1,14 @@
 
 .post{
-    height: 10rem;
-    /* width:30rem; */
     border:1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    gap: 1rem;
-    border-radius:0.5rem;
+    /* justify-content: center; */
+    padding: 1em;
+    gap: 1em;
+    border-radius:0.5em;
+    width: 100%;
 }
 
 .post__more{
@@ -17,15 +16,15 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 2rem;
+    gap: 2em;
 }
 
 .post__more p{
-    font-size: 1.2rem;
+    font-size: 1em;
    
 }
 .post__more span {
-    font-size: 1rem;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -34,5 +33,5 @@
 }
 
 .post > p{
-    font-size: 1.6rem;
+    font-size: 1.2em;
 }
