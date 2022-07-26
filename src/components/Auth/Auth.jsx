@@ -7,7 +7,7 @@ import { SignUp } from './SignUp'
 import Style from './auth.module.css'
 
 export const Auth = () => {
-  const [isSignIn, setIsSignIn] = useState(false);
+  const [isSignIn, setIsSignIn] = useState(true);
   // const dispacth = useDispatch();
   // const navigate = useNavigate();
 
